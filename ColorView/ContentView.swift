@@ -45,6 +45,7 @@ struct SliderView: View {
             Text("\(lround(value * 255))")
                 .font(.largeTitle)
                 .frame(width: 80)
+                .monospaced()
         }.padding()
     }
 }
