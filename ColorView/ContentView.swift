@@ -42,9 +42,9 @@ struct SliderView: View {
             Slider(value: $value)
                 .accentColor(color)
                 
-        
             Text("\(lround(value * 255))")
                 .font(.largeTitle)
+                .frame(width: 80)
         }.padding()
     }
 }
